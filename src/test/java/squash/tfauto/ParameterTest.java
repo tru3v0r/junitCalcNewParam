@@ -15,7 +15,7 @@ public class ParameterTest {
         String chars = ParameterService.INSTANCE.getTestString("IT_CUF_iteration");
         Assertions.assertTrue(chars.equals("iterationValue"), "The String value is incorrect");
         float floatNumber = ParameterService.INSTANCE.getTestFloat("TS_CUF_testsuite");
-        Assertions.assertTrue(floatNumber == 62.35, "The float value is incorrect");
+        Assertions.assertTrue(floatNumber == 62.35f, "The float value is incorrect");
         double doubleNumber = ParameterService.INSTANCE.getTestDouble("CPG_CUF_campaign");
         Assertions.assertTrue(doubleNumber == 1.25, "The double value is incorrect");
         boolean dataset = ParameterService.INSTANCE.getTestBoolean("DSNAME");
