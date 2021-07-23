@@ -3,13 +3,15 @@ projet automatisé avec JUnit.
 
 Les tests disponibles sont les suivants :
 
-* testscopePrem : Récupération de tous les paramètres locaux possibles et vérification des valeurs.
+* testScopePrem : Récupération de tous les paramètres locaux possibles et vérification des valeurs.
 
-* testscopeCommu : Récupération des paramètres locaux au niveau du cas de test et des jeux de données puis vérification des valeurs.
+* testScopeCommu : Récupération des paramètres locaux au niveau du cas de test et des jeux de données puis vérification des valeurs.
 
 * defaultScope : Récupération des paramètres (locaux et globaux) au niveau du cas de test et des jeux de données puis vérification des valeurs.
 
-* globalscope : Récupération des paramètres globaux au niveau du cas de test et des jeux de données puis vérification des valeurs.
+* globalScope : Récupération des paramètres globaux au niveau du cas de test et des jeux de données puis vérification des valeurs.
+
+Ces mêmes tests existent avec les valeurs incluses par défaut (voir la classe DefaultParameterTest).
 
 Liste des paramètres attendus pour un test en succès : 
 
@@ -17,7 +19,7 @@ Liste des paramètres attendus pour un test en succès :
 
 * IT_CUF_iteration : iterationValue
 
-* TS_CUF_testsuite : 62.35
+* TS_CUF_testsuite : 62.35f
 
 * CPG_CUF_campaign : 1.25
 
