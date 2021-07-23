@@ -7,7 +7,7 @@ Les tests disponibles sont les suivants :
 
 * testScopeCommu : Récupération des paramètres locaux au niveau du cas de test et des jeux de données puis vérification des valeurs.
 
-* defaultScope : Récupération des paramètres (locaux et globaux) au niveau du cas de test et des jeux de données puis vérification des valeurs.
+* allScope : Récupération des paramètres (locaux et globaux) au niveau du cas de test et des jeux de données puis vérification des valeurs.
 
 * globalScope : Récupération des paramètres globaux au niveau du cas de test et des jeux de données puis vérification des valeurs.
 

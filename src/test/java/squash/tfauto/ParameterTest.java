@@ -35,7 +35,7 @@ public class ParameterTest {
     }
 
     @Test
-    public void defaultScope() throws ParameterException {
+    public void allScope() throws ParameterException {
         int integer = ParameterService.INSTANCE.getInt("TC_CUF_testcase");
         Assertions.assertTrue(integer == 50, "The integer value is incorrect, current is" + integer);
         boolean dataset = ParameterService.INSTANCE.getBoolean("DSNAME");
