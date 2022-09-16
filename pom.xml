@@ -29,7 +29,7 @@
         <dependency>
             <groupId>org.opentestfactory.util</groupId>
             <artifactId>opentestfactory-java-param-library</artifactId>
-            <version>1.0.3.mr33-20220322.104736-1</version>
+            <version>1.0.3.mr35-20220916.145530-1</version>
         </dependency>
     </dependencies>
   
